@@ -29,4 +29,5 @@ printer-driver-foo2zjs-common printer-driver-m2300w printer-driver-ptouch printe
 nautilus terminal
 
 https://github.com/app-outlet/app-outlet  
+custom fonts
 ## setup conky themes
