@@ -31,3 +31,9 @@ nautilus terminal
 https://github.com/app-outlet/app-outlet  
 custom fonts
 ## setup conky themes
+
+https://github.com/elementary/appcenter
+
+https://stackoverflow.com/questions/2518127/how-to-reload-bashrc-settings-without-logging-out-and-back-in-again
+
+enable wayland

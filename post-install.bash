@@ -24,7 +24,8 @@ su - $SUDO_USER -c "flatpak remote-add --if-not-exists flathub https://flathub.o
 apt install os-prober
 
 
-source ~/.bashrc
+# source ~/.bashrc
+exec bash
 
 ## removing snap
 
@@ -74,7 +75,8 @@ dconf-editor gdebi pavucontrol winetricks blueman gnome-sushi ffmpeg ffmpegthumb
 cpupower-gui ghex handbrake net-tools openjdk-8-jdk gthumb gnome-firmware python3-yaml \
 python3-dateutil python3-pyqt5 python3-packaging python3-requests
 
-source ~/.bashrc
+# source ~/.bashrc
+exec bash
 
 ## setting up useful flatpak packages
 flatpak install flathub com.belmoussaoui.Decoder com.github.muriloventuroso.pdftricks \
