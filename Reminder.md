@@ -37,3 +37,8 @@ https://github.com/elementary/appcenter
 https://stackoverflow.com/questions/2518127/how-to-reload-bashrc-settings-without-logging-out-and-back-in-again
 
 enable wayland
+
+https://askubuntu.com/questions/741753/how-to-use-cubic-to-create-a-custom-ubuntu-live-cd-image
+
+
+https://wiki.archlinux.org/title/desktop_entries
