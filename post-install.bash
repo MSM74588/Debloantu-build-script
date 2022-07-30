@@ -71,15 +71,16 @@ EOF
 apt install -y curl git python3 python3-pip software-properties-common ttf-mscorefonts-installer ca-certificates \
 gnome-disk-utility mpv htop neofetch stacer openssh-server synaptic ubuntu-restricted-extras \
 dconf-editor gdebi pavucontrol winetricks blueman gnome-sushi ffmpeg ffmpegthumbnailer \
-cpupower-gui ghex handbrake net-tools openjdk-8-jdk gthumb gnome-firmware
+cpupower-gui ghex handbrake net-tools openjdk-8-jdk gthumb gnome-firmware python3-yaml \
+python3-dateutil python3-pyqt5 python3-packaging python3-requests
 
 source ~/.bashrc
 
 ## setting up useful flatpak packages
 flatpak install flathub com.belmoussaoui.Decoder com.github.muriloventuroso.pdftricks \
 com.github.tchx84.Flatseal com.github.donadigo.appeditor com.github.fabiocolacio.marker \
-com.github.xournalpp.xournalpp \
-com.usebottles.bottles org.gnome.design.IconLibrary \
+com.github.xournalpp.xournalpp com.mattjakeman.ExtensionManager org.upnproutercontrol.UPnPRouterControl \
+com.usebottles.bottles org.gnome.design.IconLibrary org.gnome.Firmware \
 no.mifi.losslesscut org.gnome.Rhythmbox3 org.gnome.clocks de.haeckerfelix.Fragments \
 org.x.Warpinator re.sonny.Tangram vn.hoabinh.quan.CoBang io.bassi.Amberol \
 org.gnome.SoundRecorder com.github.hugolabe.Wike org.gnome.Connections net.davidotek.pupgui2  \
@@ -108,11 +109,18 @@ apt-get update
 apt install folder-color yaru-colors-folder-color
 apt-get install folder-color
 
+## install nautilus extension
+apt install nautilus-admin
+
 ## Setup ubuntusys (will now work, only supported upto ubuntu 17)
 # add-apt-repository ppa:adgellida/ubunsys -y
 # apt-get update
 # apt-get install ubunsys
 
+## setup timshift
+apt-add-repository -y ppa:teejee2008/ppa
+apt update
+apt install timeshift
 
 ## install nerd font
 

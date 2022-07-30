@@ -21,3 +21,12 @@ mcp-account-manager-uoa python3-uno rhythmbox rhythmbox-plugins rhythmbox-plugin
 telepathy-haze telepathy-idle telepathy-indicator telepathy-logger telepathy-mission-control-5 telepathy-salut totem totem-common totem-plugins 
 printer-driver-brlaser printer-driver-foo2zjs 
 printer-driver-foo2zjs-common printer-driver-m2300w printer-driver-ptouch printer-driver-splix
+
+# automated installation of Firefox extensions
+# gnome extensions
+## custom shortcuts
+
+nautilus terminal
+
+https://github.com/app-outlet/app-outlet  
+## setup conky themes
