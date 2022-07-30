@@ -19,7 +19,13 @@ apt-get install chrome-gnome-shell
 apt install -y flatpak
 apt install gnome-software-plugin-flatpak
 su - $SUDO_USER -c "flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo"
+
+#installing important utilities
+apt install os-prober
+
+
 source ~/.bashrc
+
 ## removing snap
 
 snap remove --purge firefox
@@ -63,19 +69,60 @@ EOF
 
 ## merging msm install script
 apt install -y curl git python3 python3-pip software-properties-common ttf-mscorefonts-installer ca-certificates \
-gnome-disk-utility mpv htop neofetch grub-customizer stacer openssh-server synaptic ubuntu-restricted-extras \
-dconf-editor gdebi pavucontrol winetricks blueman gnome-sushi\
-cpupower-gui ghex handbrake net-tools openjdk-8-jdk gthumb fragments
+gnome-disk-utility mpv htop neofetch stacer openssh-server synaptic ubuntu-restricted-extras \
+dconf-editor gdebi pavucontrol winetricks blueman gnome-sushi ffmpeg ffmpegthumbnailer \
+cpupower-gui ghex handbrake net-tools openjdk-8-jdk gthumb gnome-firmware
+
+source ~/.bashrc
 
 ## setting up useful flatpak packages
 flatpak install flathub com.belmoussaoui.Decoder com.github.muriloventuroso.pdftricks \
 com.github.tchx84.Flatseal com.github.donadigo.appeditor com.github.fabiocolacio.marker \
 com.github.xournalpp.xournalpp \
 com.usebottles.bottles org.gnome.design.IconLibrary \
-no.mifi.losslesscut org.gnome.Rhythmbox3 org.gnome.clocks \
-org.x.Warpinator re.sonny.Tangram vn.hoabinh.quan.CoBang \
+no.mifi.losslesscut org.gnome.Rhythmbox3 org.gnome.clocks de.haeckerfelix.Fragments \
+org.x.Warpinator re.sonny.Tangram vn.hoabinh.quan.CoBang io.bassi.Amberol \
 org.gnome.SoundRecorder com.github.hugolabe.Wike org.gnome.Connections net.davidotek.pupgui2  \
 io.github.prateekmedia.appimagepool com.github.muriloventuroso.easyssh -y
+
+## setting up gnome extensions via apt (untested)
+apt install gnome-tweaks gnome-shell-extension-gsconnect \
+gnome-shell-extension-material-shell
+
+## enable extensions
+
+## install grub customizer
+add-apt-repository ppa:danielrichter2007/grub-customizer -y
+apt install grub-customizer
+
+## nautilus extension
+apt install nautilus-image-converter
+
+## folder color nautilus extension
+add-apt-repository ppa:costales/folder-color -y
+## yaru specific
+add-apt-repository ppa:costales/yaru-colors-folder-color -y
+
+apt update
+apt-get update
+apt install folder-color yaru-colors-folder-color
+apt-get install folder-color
+
+## Setup ubuntusys (will now work, only supported upto ubuntu 17)
+# add-apt-repository ppa:adgellida/ubunsys -y
+# apt-get update
+# apt-get install ubunsys
+
+
+## install nerd font
+
+cd $HOME/Downloads && echo "[-] Download fonts [-]" && \
+su - $SUDO_USER -c "echo \"https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DroidSansMono.zip\" && \
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DroidSansMono.zip && \
+unzip DroidSansMono.zip -d ~/.fonts && \
+fc-cache -fv"
+
+pip3 
 
 #Configure fish (place at last)
 apt-add-repository ppa:fish-shell/release-3 -y
@@ -85,3 +132,5 @@ apt install fish -y
 chsh -s /usr/bin/fish
 mkdir -p ~/.config/fish
 set -g -x fish_greeting ''
+
+## enable wayland
