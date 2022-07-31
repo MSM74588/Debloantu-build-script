@@ -42,3 +42,5 @@ https://askubuntu.com/questions/741753/how-to-use-cubic-to-create-a-custom-ubunt
 
 
 https://wiki.archlinux.org/title/desktop_entries
+
+https://codereview.stackexchange.com/questions/243133/installing-gnome-extension-via-cli
