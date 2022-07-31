@@ -90,7 +90,7 @@ io.github.prateekmedia.appimagepool com.github.muriloventuroso.easyssh -y
 
 ## setting up gnome extensions via apt (untested)
 apt install gnome-tweaks gnome-shell-extension-gsconnect \
-gnome-shell-extension-material-shell
+gnome-shell-extension-material-shell  gnome-shell-extensions
 
 ## enable extensions
 
