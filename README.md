@@ -108,3 +108,4 @@
     - deb-get
     - gnome media softwares(video+audio)[remove]
     - Rubik font
+    - VS code (preferably codium)
