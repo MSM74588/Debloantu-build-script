@@ -14,7 +14,7 @@ dpkg --add-architecture i386
 apt update
 apt-get update
 
-apt-get install chrome-gnome-shell
+apt-get install chrome-gnome-shell chome-gnome-shell-pref
 #setup flatpak
 apt install -y flatpak
 apt install gnome-software-plugin-flatpak
@@ -132,7 +132,7 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/DroidSansM
 unzip DroidSansMono.zip -d ~/.fonts && \
 fc-cache -fv"
 
-pip3 
+# pip3 
 
 #Configure fish (place at last)
 apt-add-repository ppa:fish-shell/release-3 -y
