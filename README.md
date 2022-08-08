@@ -109,3 +109,4 @@
     - gnome media softwares(video+audio)[remove]
     - Rubik font
     - VS code (preferably codium)
+    - Nala apt frontend
