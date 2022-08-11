@@ -35,3 +35,11 @@ Firefox:
     (apply using script, to import a custom profile)
 
 Kvantum: Qogir-dark
+
+Resources are saved in:
+    - Github "Linux" saved List
+    - Telegram
+    - Raindrop "PC LINUx" list
+    - Youtube "The LINUX PROJECT"
+    - also many useful things are in screenshots
+    - Notion (in 2 pages)
