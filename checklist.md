@@ -2,7 +2,7 @@
 
  - [ ]  create a robust build script
  - [ ]  create a grub theme (with dafont LCD fonts)
- - [ ]  apply all the customisations
+ - [ ]  apply all the customisations for users via autostart script
  - [ ]  create a complete list of extensions
  - [ ]  create the notion websites
  - [ ]  create a welcome screen app
