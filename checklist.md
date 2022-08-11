@@ -12,6 +12,7 @@
  - [ ]  auto install extension script (with "for" array looping)
  - [ ]  add kernel changing options
  - [ ]  add a conky theme
+ - [ ]  add a plymouth theme
 
 
 Theme
