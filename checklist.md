@@ -11,3 +11,4 @@
  - [ ]  create an themes, wallpaper, tweaks recommendation application
  - [ ]  auto install extension script (with for array looping)
  - [ ]  add kernel changing options
+ - [ ]  add a conky theme
