@@ -63,3 +63,8 @@ gsettings set org.gnome.desktop.interface icon-theme 'WhiteSur-dark'
 gsettings set org.gnome.desktop.interface font-name 'Rubik 11'
 gsettings set org.gnome.shell.extensions.user-theme name 'WhiteSur-dark'
 ```
+
+## common troubleshooting
+- update apt repo
+- dhclient restart
+- pulseudio restart
