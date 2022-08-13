@@ -50,6 +50,8 @@ https://codereview.stackexchange.com/questions/243133/installing-gnome-extension
 https://extensions.gnome.org/extension-data/user-themegnome-shell-extensions.gcampax.github.com.v49.shell-extension.zip
 - V-49, Shell-V 42
 ## Gsettings
+
+```bash
 gsettings set org.gnome.desktop.interface enable-hot-corners true
 gsettings set org.gnome.desktop.interface clock-format '12h'
 gsettings set org.gnome.desktop.interface clock-show-seconds true
@@ -60,3 +62,4 @@ gsettings set org.gnome.desktop.interface locate-pointer true
 gsettings set org.gnome.desktop.interface icon-theme 'WhiteSur-dark'
 gsettings set org.gnome.desktop.interface font-name 'Rubik 11'
 gsettings set org.gnome.shell.extensions.user-theme name 'WhiteSur-dark'
+```
