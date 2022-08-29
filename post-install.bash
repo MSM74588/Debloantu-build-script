@@ -73,7 +73,7 @@ EOF
 # gnome-disk-utility mpv htop neofetch stacer openssh-server synaptic ubuntu-restricted-extras \
 # dconf-editor gdebi pavucontrol winetricks blueman gnome-sushi ffmpeg ffmpegthumbnailer \
 # cpupower-gui ghex handbrake net-tools openjdk-8-jdk gthumb gnome-firmware python3-yaml \
-# python3-dateutil python3-pyqt5 python3-packaging python3-requests
+# python3-dateutil python3-pyqt5 python3-packaging python3-requests ranger
 
 apt install -y curl git python3 python3-pip software-properties-common ttf-mscorefonts-installer ca-certificates \
 gnome-disk-utility mpv htop neofetch openssh-server synaptic ubuntu-restricted-extras \
