@@ -110,3 +110,6 @@
     - Rubik font
     - VS code (preferably codium)
     - Nala apt frontend
+
+## To compile custom glib
+    glib-compile-schemas /usr/share/glib-2.0/schemas
