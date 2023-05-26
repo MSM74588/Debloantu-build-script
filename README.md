@@ -116,3 +116,6 @@
 
 ## run scripts directly
     curl -fsSL https://raw.githubusercontent.com/MSM74588/Debloantu-build-script/main/custom-cubic-script.sh | sh
+
+## essential first time command
+    apt update && apt install curl wget
