@@ -113,3 +113,6 @@
 
 ## To compile custom glib
     glib-compile-schemas /usr/share/glib-2.0/schemas
+
+## run scripts directly
+    curl -fsSL https://raw.githubusercontent.com/MSM74588/Debloantu-build-script/main/custom-cubic-script.sh | sh
