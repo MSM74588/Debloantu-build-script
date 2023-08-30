@@ -103,9 +103,9 @@ cd /tmp
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 cd WhiteSur-gtk-theme
 chmod +x install.sh tweaks.sh
-./install.sh
-./tweaks.sh -F
-./tweaks.sh -g
+# ./install.sh 
+# ./tweaks.sh -F
+# ./tweaks.sh -g
 
 cd /tmp
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
